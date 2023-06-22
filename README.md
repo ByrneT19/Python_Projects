@@ -17,3 +17,7 @@ A simple calculator programme made without libraries. To run this file use the c
 ## Encryption  
 A programme that takes a user's input, turns it to lowercase and uses randint to randomise all alphabetical characters whilst retaining punctuation, numbers and spaces. It then converts it back again. To run this file use the command:  
 `python3 ./encryption.py`
+
+## Rock, Paper, Scissors
+Play rock paper scissors against the computer. Programme allows you to pick how many rounds you want to play the best of. To run this file use the command:  
+`python3 ./rock_paper_scissors.py`
