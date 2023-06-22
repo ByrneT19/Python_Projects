@@ -13,3 +13,7 @@ A simple programme that asks a user to guess a random decimal number. To run thi
 ## Calculator
 A simple calculator programme made without libraries. To run this file use the command:  
 `python3 ./calculator.py`
+
+## Encryption  
+A programme that takes a user's input, turns it to lowercase and uses randint to randomise all alphabetical characters whilst retaining punctuation, numbers and spaces. It then converts it back again. To run this file use the command:  
+`python3 ./encryption.py`
