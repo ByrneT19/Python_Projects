@@ -4,13 +4,11 @@ def gapper(binary_number):
     binary_number = [int(i) for i in str(binary)]
     indexes = []
     results = []
-    print(binary_number)
     
     # Find the index of each number 1
     for idx, i in enumerate(binary_number):
         if i == 1:
             indexes.append(idx)
-    print(indexes)
     for j in range(1, len(indexes)):
         # Calculate how many zeros based on the difference between each index of 1
         difference = (indexes[j] - indexes[j-1])-1
