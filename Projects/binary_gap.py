@@ -1,9 +1,9 @@
-
 def gapper(binary_number):
     binary = bin(input_num).replace('0b', '')
     binary_number = [int(i) for i in str(binary)]
     indexes = []
     results = []
+    print(f'The binary form of this number is: {binary}')
     
     # Find the index of each number 1
     for idx, i in enumerate(binary_number):
