@@ -21,3 +21,7 @@ A programme that takes a user's input, turns it to lowercase and uses randint to
 ## Rock, Paper, Scissors
 Play rock paper scissors against the computer. Programme allows you to pick how many rounds you want to play the best of. To run this file use the command:  
 `python3 ./rock_paper_scissors.py`
+
+## Binary Gap
+A programme that allows you to identify the longest binary gap in a number converted into binary form. To run this file use the command:
+`python3 ./binary_gap.py`
