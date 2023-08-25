@@ -20,8 +20,6 @@ def gapper(binary_number):
         gap = f'There are {str(len(results))} binary gaps, the largest is: {str(max(results))}'
     print(gap)
 
-
-
 while True:
     input_num = input('Enter a whole number, enter "0" to exit: ')
     
@@ -33,4 +31,3 @@ while True:
             gapper(input_num)
     else:
         print('Please enter a whole number')
-    
