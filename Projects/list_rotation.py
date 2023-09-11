@@ -1,5 +1,5 @@
 original_list = [1,2,3,4,5]
-rotations = 3
+shunt = 3
 rotated_list = [0]*len(original_list)
 
 def rotation(a, k):
@@ -19,8 +19,7 @@ def rotation(a, k):
         else:
             rotated_list[i+k] = a[i]
 
-    print(f'original list {original_list} with {rotations} cycles becomes {rotated_list}')
+    print(f'original list {original_list} with {shunt} cycles becomes {rotated_list}')
     return rotated_list
 
-result = rotation(original_list, rotations)
-print(result)
+result = rotation(original_list, shunt)
