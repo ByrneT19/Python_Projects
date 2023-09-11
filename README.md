@@ -27,4 +27,6 @@ A programme that allows you to identify the longest binary gap in a number conve
 `python3 ./binary_gap.py`
 
 ## List Rotation
-A programme that takes a list and shunts it by so many places. For instance, if it is to be shunted by 2 places then each element will move to the right by two places. Elements at the end of the list will cycle back round to the start of the list.
+A programme that takes a list and shunts it by so many places. For instance, if it is to be shunted by 2 places then each element will move to the right by two places. Elements at the end of the list will cycle back round to the start of the list. To run this file use the command:
+`python3 ./list_shunt.py`
+
