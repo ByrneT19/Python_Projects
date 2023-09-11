@@ -1,7 +1,6 @@
 paired_list = [1,2,1,4,2,4,8,9,8,9,7]
 s = set()
-len_p = len(paired_list)
-if len_p % 2 == 0:
+if len(paired_list) % 2 == 0:
     print('There are no unpaired elements.')
 else:
     for ele in paired_list:
