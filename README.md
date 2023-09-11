@@ -31,5 +31,5 @@ A programme that takes a list and shunts it by so many places. For instance, if 
 `python3 ./list_shunt.py`
 
 ## Pair Checker
-A programme that allows you to identify an odd element in a list of paired elements. To run this file use the command:
+A programme that allows you to identify an odd element in a list of paired elements where there is strictly only one odd element. To run this file use the command:
 `python3 ./pair_checker.py`
